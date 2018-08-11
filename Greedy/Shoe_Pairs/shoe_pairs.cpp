@@ -16,9 +16,9 @@ int main() {
     for (int i = 0; n > i; i++) {
         std::cin >> sizeOfShoe >> lR;
         if (lR == 'L') {
-            shoeArray[sizeOfShoe][0] = 1;
+            shoeArray[sizeOfShoe][0] += 1;
         } else {
-            shoeArray[sizeOfShoe][1] = 1;
+            shoeArray[sizeOfShoe][1] += 1;
         }
     }
 
